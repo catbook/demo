@@ -25,7 +25,7 @@ public class OpenWeb {
 //		btn.sendKeys("yijinrongtest");
 		//定位到按钮点击确定
 		WebElement btn = dr.findElement(By.xpath("//*[@id=\"su\"]"));
-		btn.click();
+//		btn.click();
 
     }
     public static void sleep(int time) {
