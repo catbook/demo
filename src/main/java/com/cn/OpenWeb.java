@@ -20,7 +20,7 @@ public class OpenWeb {
 		WebElement input = dr.findElement(By.xpath("//*[@id=\"kw\"]"));
 //		WebElement btn = dr.findElement(By.xpath("//*[@id=\"su\"]"));
 		//输入搜索内容
-		input.sndKeys("哆啦A梦");
+		input.sendKeys("哆啦A梦");
 		sleep(3);
 //		btn.sendKeys("yijinrongtest");
 		//定位到按钮点击确定
